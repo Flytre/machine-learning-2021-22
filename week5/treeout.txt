@@ -1,0 +1,40 @@
+* petalwidth?
+  * nearest 1/4: 0.0 --> Iris-setosa
+  * nearest 1/4: 0.25 --> Iris-setosa
+  * nearest 1/4: 0.5 --> Iris-setosa
+  * nearest 1/4: 1.0 --> Iris-versicolor
+  * nearest 1/4: 1.25 --> Iris-versicolor
+  * nearest 1/4: 1.5
+    * petallength?
+      * nearest 1/4: 4.0 --> Iris-versicolor
+      * nearest 1/4: 4.25 --> Iris-versicolor
+      * nearest 1/4: 4.5 --> Iris-versicolor
+      * nearest 1/4: 4.75 --> Iris-versicolor
+      * nearest 1/4: 5.0
+        * sepalwidth?
+          * nearest 1/4: 2.25 --> Iris-virginica
+          * nearest 1/4: 2.5 --> Iris-versicolor
+          * nearest 1/4: 2.75
+            * sepallength?
+              * nearest 1/4: 6.0 --> Iris-versicolor
+              * nearest 1/4: 6.25 --> Iris-virginica
+          * nearest 1/4: 3.0 --> Iris-versicolor
+      * nearest 1/4: 5.5 --> Iris-virginica
+      * nearest 1/4: 5.75 --> Iris-virginica
+  * nearest 1/4: 1.75
+    * sepallength?
+      * nearest 1/4: 5.0 --> Iris-virginica
+      * nearest 1/4: 6.0
+        * sepalwidth?
+          * nearest 1/4: 3.0 --> Iris-virginica
+          * nearest 1/4: 3.25 --> Iris-versicolor
+      * nearest 1/4: 6.25 --> Iris-virginica
+      * nearest 1/4: 6.5 --> Iris-virginica
+      * nearest 1/4: 6.75
+        * sepalwidth?
+          * nearest 1/4: 2.5 --> Iris-virginica
+          * nearest 1/4: 3.0 --> Iris-versicolor
+      * nearest 1/4: 7.25 --> Iris-virginica
+  * nearest 1/4: 2.0 --> Iris-virginica
+  * nearest 1/4: 2.25 --> Iris-virginica
+  * nearest 1/4: 2.5 --> Iris-virginica
